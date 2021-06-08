@@ -1,0 +1,31 @@
+:root {
+  /* dimensione display totem */
+  --sinteticWidth: 1080px;
+  --sinteticHeight: 1920px;
+  /* misure altezza documento */
+  --trentaduesimo: calc( var(--sinteticHeight) / 32);
+  --sessantaquattresimo: calc( var(--sinteticHeight) / 64);
+  /* misure larghezza documento */
+  --diciottesimo: calc( var(--sinteticWidth) / 18);
+  --trentaseiesimo: calc( var(--sinteticWidth) / 36);
+  /* colori  */
+  --blue: #063df3;
+  --yellow: #ffec00;
+  /* posizione di fuoriuscita delle cards */
+
+  --verticalOut: -1000px;
+  --horizontalOut: -1000px;
+
+  --topLeftOutPos: var(--horizontalOut);
+  --topRightOutPos: var(--verticalOut);
+  --centerRightOutPos: var(--horizontalOut);
+  --bottomRightOutPos: var(--verticalOut);
+  --bottomLeftOutPos: var(--horizontalOut);
+  /* altre utils */
+  --slidingCardsAnimationDuration: 2s;
+  --avatarButtonsAnimationDuration: 2s;
+  --avatarDimension: 300px;
+  --defaultRadius: 75px;
+
+  background-color: var(--yellow);
+}
